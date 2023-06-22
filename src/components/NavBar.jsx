@@ -50,7 +50,7 @@ function NavBar() {
 
       <div
         className={`${toggle ? 'flex' : 'hidden'} sm:hidden bg-white slide 
-          fixed top-20 shadow-custom p-6 right-0 left-0 rounded-lg mx-6 
+          fixed top-20 shadow-custom p-6 right-0 left-0 rounded-lg mx-6 z-50
         `}
       >
         <ul className="list-none flex flex-col justify-end items-center flex-1 ">
