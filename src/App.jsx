@@ -1,9 +1,9 @@
 import NavBar from './components/Navbar'
 import Hero from './components/Hero'
+import AboutUs from './components/AboutUs'
+import Guide from './components/Guide'
 
 import styles from './styles'
-import AboutUs from './components/AboutUs'
-
 function App() {
   return (
     <div className="bg-white w-full overflow-hidden">
@@ -17,6 +17,7 @@ function App() {
 
       <div className={`${styles.container} ${styles.paddingY}`}>
         <AboutUs />
+        <Guide />
       </div>
     </div>
   )
