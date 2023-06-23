@@ -9,7 +9,7 @@ import Badge from '../assets/badge.svg'
 
 const Hero = () => {
   return (
-    <section className="grid items-center gap-y-10 gap-x-36 md:grid-cols-2">
+    <section id="home" className="grid items-center gap-y-10 gap-x-36 md:grid-cols-2 pt-14">
       <div className="flex flex-col gap-y-4 text-center md:text-start max-w-[728px] mx-auto">
         <img src={curves} alt="asset img" className="hidden md:block w-[248px] h-25px" />
         <h1 className="text-[32px] sm:text-[48px] md:w-[548px] font-poppins text-primary">
