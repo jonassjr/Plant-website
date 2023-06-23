@@ -9,6 +9,7 @@ export default {
       colors: {
         'primary': '#01352C',
         'secondary': '#61B390',
+        'secondary-alt': '#53997B',
         'third-color': '#BAD8B6',
       },
       boxShadow: {
@@ -23,7 +24,7 @@ export default {
       xs: '480px',
       ss: '620px',
       sm: '768px',
-      md: '1060px',
+      md: '1024px',
       lg: '1200px',
       xl: '1700px',
     },
