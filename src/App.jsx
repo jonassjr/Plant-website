@@ -4,6 +4,7 @@ import AboutUs from './components/AboutUs'
 import Guide from './components/Guide'
 
 import styles from './styles'
+import Products from './components/Products'
 function App() {
   return (
     <div className="bg-white w-full overflow-hidden">
@@ -18,6 +19,7 @@ function App() {
       <div className={`${styles.container} ${styles.paddingY}`}>
         <AboutUs />
         <Guide />
+        <Products />
       </div>
     </div>
   )

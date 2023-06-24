@@ -34,31 +34,27 @@ function NavBar() {
   }, [])
 
   useEffect(() => {
-    const options = {
-      root: null,
-      rootMargin: '0px',
-      threshold: 0.5,
-    }
+    const handleScrollMobile = () => {
+      const windowHeight = window.innerHeight
+      const sections = document.querySelectorAll('section')
+      let activeSection = 'home'
 
-    const handleIntersect = (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          setActiveItem(entry.target.id)
+      sections.forEach((section) => {
+        const rect = section.getBoundingClientRect()
+        const sectionTop = rect.top
+
+        if (sectionTop <= windowHeight / 2) {
+          activeSection = section.id
         }
       })
+
+      setActiveItem(activeSection)
     }
 
-    const observer = new IntersectionObserver(handleIntersect, options)
-
-    NavLinks.forEach((nav) => {
-      const target = document.getElementById(nav.id)
-      if (target) {
-        observer.observe(target)
-      }
-    })
+    window.addEventListener('scroll', handleScrollMobile)
 
     return () => {
-      observer.disconnect()
+      window.removeEventListener('scroll', handleScrollMobile)
     }
   }, [])
 
