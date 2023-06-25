@@ -93,3 +93,94 @@ export const products = [
     price:'$12.99'
   }
 ]
+
+export const questionsRight = [
+  {
+    id:1,
+    question:'What plants do you sell?',
+    answer:'Extensive variety of plants available for sale.'
+  },
+  {
+    id:2,
+    question:'How much water for indoor plants?',
+    answer:'Proper watering guidelines for each indoor plant.'
+  },
+  {
+    id:3,
+    question:'Care instructions for each plant?',
+    answer:'Comprehensive care instructions provided for every plant.'
+  },
+]
+
+export const questionsLeft = [
+  {
+    id:4,
+    question:'Return or exchange policy?',
+    answer:'Hassle-free return and exchange policy in place.'
+  },
+  {
+    id:5,
+    question:'Organic or pesticide use?',
+    answer:'Commitment to organic practices, minimal pesticide use.'
+  },
+  {
+    id:6,
+    question:'Accepted payment methods?',
+    answer:'Convenient payment options: Credit cards, PayPal, and more.'
+  },
+]
+
+export const footerLinks = [
+  {
+    title: 'Our Services',
+    links: [
+      {
+        name:'Pricing',
+        link:'#'
+      },
+      {
+        name:'Discounts',
+        link:'#'
+      },
+      {
+        name:'Report a bug',
+        link:'#'
+      },
+      {
+        name:'Terms of Services',
+        link:'#'
+      }
+    ]
+  },
+  {
+    title: 'Our Company',
+    links: [
+      {
+        name:'Blog',
+        link:'#'
+      },
+      {
+        name:'Our Mission',
+        link:'#'
+      },
+      {
+        name:'Get in Touch',
+        link:'#'
+      },
+    ]
+  },
+  {
+    title: 'Our Address',
+    links: [
+      {
+        name:'0123 - somewhere'
+      },
+      {
+        name:'Out there - 54321'
+      },
+      {
+        name:'222-333-444'
+      },
+    ]
+  }
+]

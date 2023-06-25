@@ -10,7 +10,7 @@ const Guide = () => {
         Need assistance in selecting the perfect plant? We're here to help! Explore our expert
         guidance.
       </h2>
-      <div className="flex justify-center max-[1047px]:gap-x-8 min-[1048px]:justify-between  flex-wrap">
+      <div className="flex justify-center gap-x-8 custom-md:gap-x-0 custom-md:justify-between  flex-wrap">
         {Plants.map((plant) => (
           <div
             key={plant.id}
