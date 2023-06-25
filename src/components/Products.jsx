@@ -20,7 +20,7 @@ const Products = () => {
                 <p className="font-semibold cursor-pointer hover:underline">{product.name}</p>
                 <p>{product.price}</p>
               </div>
-              <div className="self-end bg-secondary rounded-[5px] cursor-pointer">
+              <div className="self-end bg-secondary hover:bg-secondary-alt duration-300 rounded-[5px] cursor-pointer">
                 <Bag2 className="text-white m-1" />
               </div>
             </div>

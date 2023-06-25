@@ -11,7 +11,6 @@ const AboutUs = () => {
       <div className="md:place-self-start">
         <img src={AboutImg} alt="About Image" />
       </div>
-
       <div className="flex flex-col gap-y-4 text-center max-w-[728px] md:text-start">
         <h2 className="font-poppins text-[28px] text-primary">
           Get to Know Us & Why We're the Best Choice
